@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Steven Edouard",
+    "label": "Software Engineer",
+    "picture": "https://avatars.githubusercontent.com/u/3053263?v=3",
+
+    "summary": "I am a Developer Advocate at heart. Every day I work to empower individuals to build awesome things through open source. I hope to pursue a role where I can have high impact on products and developer communities.",
+
+    "email": "steven.edouard1@gmail.com",
+    "phone":"1313 666",
+    "website": "http://stevenedouard.com",
+    "website_nme": "stevenedouard.com",
+    "linkedin": "http://github.com/sedouard/resume",
+    "linkedin_nme": "LinkedIn",
+    "github": "http://github.com/sedouard/resume",
+    "github_nme": "sedouard",
+    "twitter": "http://twitter.com/sedouard",
+    "twitter_nme": "@sedouard",
+
+
+
+    "education": [{
+      "institution": "University of Florida",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2007",
+      "endDate": "2011",
+      "gpa": "3.47"
+    },
+      {
+        "institution": "University of Chicago",
+        "area": "Computer Science",
+        "studyType": "Bachelor",
+        "startDate": "2007",
+        "endDate": "2011",
+        "gpa": "3.47"
+      }],
+
+
+
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }, {
+      "language": "Haitian Creole",
+      "fluency": "Conversational"
+    }],
+
+    "hobby": ["Climbing", "Snowboarding", "Cooking"],
+
+
+
+
+
+
+
+    "work": [
+      {
+        "company": "Microsoft",
+        "position": "Software Development Engineer",
+        "website": "https://microsoft.com",
+        "startDate": "2015-03-16",
+        "summary": "Within Microsoft’s Technicalntegrating with Microsoft technology easy."
+
+      }, {
+        "company": "Microsoft",
+        "position": "Developer Evangelist",
+        "website": "http://microsoft.com",
+        "startDate": "2014-03-04",
+        "endDate": "2015-03-16",
+        "summary": "Responsible for increasing adoption of Microsoft developer platforms."
+
+
+      }, {
+        "company": "Microsoft",
+        "position": "Software Development Engineer in Test, Common Language Runtime",
+        "website": "http://www.microsoft.com/net",
+        "startDate": "2012-01-22",
+        "endDate": "2014-03-04",
+        "summary": "Responsible for integration, dynamic testing and diagnostics of the Common Language Runtime."
+
+      }, {
+        "company": "Lockheed Martin Mission Systems",
+        "position": "Software Engineer Intern (4 summers)",
+        "website": "http://www.lockheedmartin.com",
+        "startDate": "2008-01-22",
+        "endDate": "2011-08-01",
+        "summary": "Obtained critical experience during college on software development for mission-critical scenarios."
+
+      }],
+
+
+    "projects": [{
+      "name": "Cloud Services",
+      "website": "http://www.lockheedmartin.com",
+      "summary": "Obtained critical experience during college on software development for mission-critical scenarios."
+    },
+      {
+        "name": "Cloud Services",
+        "website": "http://www.lockheedmartin.com",
+        "summary": "Obtained critical experience during college on software development for mission-critical scenarios."
+      }],
+
+
+
+    "skills": [{
+      "name": "Cloud Services",
+      "level": "98%",
+      "keywords": [
+        "PaaS",
+        "IaaS",
+        "Storage"
+      ]
+    }, {
+      "name": "Web Applications",
+      "level": "75%",
+      "keywords": [
+        "Ember",
+        "Angular",
+        "Express"
+      ]
+    }, {
+      "name": "DevOps",
+      "level": "65%",
+      "keywords": [
+        "Vagrant",
+        "CI",
+        "Docker"
+      ]
+    }],
+
+
+
+
+
+
+    "volunteer": [{
+      "organization": "TEALS",
+      "position": "Teacher",
+      "website": "http://tealsk12.org",
+      "startDate": "2012-07-01",
+      "endDate": "2013-05-05",
+      "summary": "High school Teacher for an inner-city computer science class."
+
+    }]
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+]
