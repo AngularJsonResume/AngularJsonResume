@@ -1,6 +1,6 @@
 {
-  "name": "a2website",
-  "version": "1.0.0",
+  "name": "AngularJSONResume",
+  "version": "1.0.3",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
