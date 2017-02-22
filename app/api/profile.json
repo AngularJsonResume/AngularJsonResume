@@ -1,30 +1,26 @@
 [
   {
-    "name": "Steven Edouard",
+    "name": "Peter Gibbons",
     "label": "Software Engineer",
     "picture": "https://avatars.githubusercontent.com/u/3053263?v=3",
-
     "summary": "I am a Developer Advocate at heart. Every day I work to empower individuals to build awesome things through open source. I hope to pursue a role where I can have high impact on products and developer communities.",
-
-    "email": "steven.edouard1@gmail.com",
-    "phone":"1313 666",
-    "website": "http://stevenedouard.com",
-    "website_nme": "stevenedouard.com",
-    "linkedin": "http://github.com/sedouard/resume",
+    "email": "peter.gibbons@gmail.com",
+    "phone":"1313 666 13",
+    "website": "http://petergibbons.com",
+    "website_nme": "petergibbons.com",
+    "linkedin": "http://github.com/petergibbons/resume",
     "linkedin_nme": "LinkedIn",
-    "github": "http://github.com/sedouard/resume",
-    "github_nme": "sedouard",
-    "twitter": "http://twitter.com/sedouard",
-    "twitter_nme": "@sedouard",
-
-
+    "github": "http://github.com/petergibbons/resume",
+    "github_nme": "pgibb",
+    "twitter": "http://twitter.com/petergibbons",
+    "twitter_nme": "@pgibb",
 
     "education": [{
-      "institution": "University of Florida",
+      "institution": "University of Boston",
       "area": "Computer Engineering",
       "studyType": "Bachelor",
-      "startDate": "2007",
-      "endDate": "2011",
+      "startDate": "2012",
+      "endDate": "2017",
       "gpa": "3.47"
     },
       {
@@ -36,8 +32,6 @@
         "gpa": "3.47"
       }],
 
-
-
     "languages": [{
       "language": "English",
       "fluency": "Native speaker"
@@ -48,12 +42,6 @@
 
     "hobby": ["Climbing", "Snowboarding", "Cooking"],
 
-
-
-
-
-
-
     "work": [
       {
         "company": "Microsoft",
@@ -63,18 +51,16 @@
         "summary": "Within Microsoft’s Technicalntegrating with Microsoft technology easy."
 
       }, {
-        "company": "Microsoft",
+        "company": "Google",
         "position": "Developer Evangelist",
-        "website": "http://microsoft.com",
+        "website": "http://google.com",
         "startDate": "2014-03-04",
         "endDate": "2015-03-16",
         "summary": "Responsible for increasing adoption of Microsoft developer platforms."
-
-
       }, {
-        "company": "Microsoft",
+        "company": "Amazon",
         "position": "Software Development Engineer in Test, Common Language Runtime",
-        "website": "http://www.microsoft.com/net",
+        "website": "http://www.amazont.com/net",
         "startDate": "2012-01-22",
         "endDate": "2014-03-04",
         "summary": "Responsible for integration, dynamic testing and diagnostics of the Common Language Runtime."
@@ -86,9 +72,7 @@
         "startDate": "2008-01-22",
         "endDate": "2011-08-01",
         "summary": "Obtained critical experience during college on software development for mission-critical scenarios."
-
       }],
-
 
     "projects": [{
       "name": "Cloud Services",
@@ -100,8 +84,6 @@
         "website": "http://www.lockheedmartin.com",
         "summary": "Obtained critical experience during college on software development for mission-critical scenarios."
       }],
-
-
 
     "skills": [{
       "name": "Cloud Services",
@@ -129,11 +111,6 @@
       ]
     }],
 
-
-
-
-
-
     "volunteer": [{
       "organization": "TEALS",
       "position": "Teacher",
@@ -143,17 +120,5 @@
       "summary": "High school Teacher for an inner-city computer science class."
 
     }]
-
-
-
-
-
-
-
-
-
-
-
   }
-
 ]
