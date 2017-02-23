@@ -26,6 +26,17 @@ export class NavbarComponent {
 
 
 
-    
+    getPeoples() {
+        this._demoService.getPeoples().subscribe(
+            data => {
+                this.peoples = data[0]
+
+            }
+            // No error or completion callbacks here. They are optional, but
+            // you will get console errors if the Observable is in an error state.
+        );
+    }
+
+
 
 }
