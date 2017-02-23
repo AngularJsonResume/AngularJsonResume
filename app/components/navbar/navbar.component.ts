@@ -12,5 +12,20 @@ export class NavbarComponent {
 
 
 
+    public peoples;
+
+
+
+
+    constructor(private _demoService: DemoService) { }
+
+    ngOnInit() {
+
+        this.getPeoples();
+    }
+
+
+
+    
 
 }
