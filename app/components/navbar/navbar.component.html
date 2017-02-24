@@ -25,5 +25,15 @@
 
     </div><!--//education-wrapper-->
 
+    <div class="languages-wrapper container-block">
+        <h2 class="container-block-title">Languages</h2>
+        <ul class="list-unstyled interests-list" *ngFor="let language of people.languages">
+            <li>{{language.language}} <span class="lang-desc"> ({{language.fluency}})</span></li>
+
+        </ul>
+    </div><!--//interests-->
+
+
+
 
 </div><!--//sidebar-wrapper-->
