@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="sidebar-wrapper" *ngFor="let people of peoples">
+    <div class="profile-wrapper" >
+        <img class="profile" src="assets/images/profile.png" alt="" />
+        <h1 class="name">{{people.name}}</h1>
+        <h3 class="tagline">{{people.label}}</h3>
+    </div><!--//profile-wrapper-->
 
-</body>
-</html>
+
+
+
+</div><!--//sidebar-wrapper-->
