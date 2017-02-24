@@ -15,7 +15,15 @@
             <li class="twitter"><i class="fa fa-twitter"></i><a href="{{people.twitter}}" target="_blank">{{people.twitter_nme}}</a></li>
         </ul>
     </div><!--//contact-wrapper-->
+    <div class="education-wrapper container-block">
+        <h2 class="container-block-title">Education</h2>
+        <div class="item" *ngFor="let eduk of people.education">
+            <h4 class="degree">{{eduk.area}}</h4>
+            <h5 class="meta">{{eduk.institution}}</h5>
+            <div class="time">{{eduk.startDate}} - {{eduk.endDate}}</div>
+        </div><!--//item-->
 
+    </div><!--//education-wrapper-->
 
 
 </div><!--//sidebar-wrapper-->
