@@ -7,7 +7,24 @@
         </div><!--//summary-->
     </section><!--//section-->
 
+    <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
 
+        <div class="item" *ngFor="let work of people.work">
+            <div class="meta">
+                <div class="upper-row">
+                    <h3 class="job-title">{{work.position}}</h3>
+                    <div class="time">{{startDate}} - {{endDate}}</div>
+                </div><!--//upper-row-->
+                <div class="company">{{work.company}}</div>
+            </div><!--//meta-->
+            <div class="details">
+                <p>{{work.summary}}</p>
+            </div><!--//details-->
+        </div><!--//item-->
+
+
+    </section><!--//section-->
 
 
 
