@@ -27,6 +27,20 @@
     </section><!--//section-->
 
 
+    <section class="section projects-section">
+        <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+        <div class="intro">
+            <p>You can list your side projects or open source libraries in this section.</p>
+        </div><!--//intro-->
+        <div class="item" *ngFor="let proj of people.projects">
+            <span class="project-title"><a href="#hook">{{proj.name}}</a></span> -
+            <span class="project-tagline">{{proj.summary}}</span>
+
+        </div><!--//item-->
+
+    </section><!--//section-->
+
+
 
 
 
