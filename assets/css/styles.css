@@ -249,3 +249,26 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+}
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
