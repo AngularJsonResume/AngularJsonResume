@@ -1,31 +1,66 @@
 # AngularJsonResume
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
+AngularJsonResume creates pretty versions of resume from a single JSON input file. Output formats are specifically customized to modern resume templates. Also, there are a ton of customizations to the templates possible, to make your own version of resume created easily and super quickly.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+### Edit a sample JSON input file in
 
-## Build
+    app\api\profile.json
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+Modify it as per the needs, and remove or keep rest of the fields empty.
+And run `npm install`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### `resume --help`
 
-## Running end-to-end tests
+Show a list of options and commands for the <abbr title="Command Line Interface">CLI</abbr>.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
-## Deploying to Github Pages
+### `resume init`
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
+Creates a new `resume.json` file in your current working directory.
 
-## Further help
+Complete the `resume.json` with your text editor. Be sure to follow the schema
+(available at http://jsonresume.org).
 
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### `resume test`
+
+Validates your `resume.json` against our schema tests to ensure it complies with
+the standard. Tries to identify where any errors may be occurring.
+
+
+### `resume serve`
+
+Starts a web server that serves your local `resume.json`.
+
+Options:
+  - `--port <port>`
+  - `--theme <name>`
+
+If no theme is specified, it will look for the file `index.js` and call
+`render()`. This is useful when developing themes.
+
+
+## Changelog
+
+### v1.0
+* Glyphicons are now replaced by Font-Awesome icons.
+* HTML version has a responsive design.
+
+## Contributing
+
+We :heart: **Pull Requests**.
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## License
+
+Available under [the MIT license](http://mths.be/mit).
+
