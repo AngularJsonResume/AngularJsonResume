@@ -1,7 +1,7 @@
 # AngularJsonResume
 
-AngularJsonResume creates pretty versions of resume from a single JSON input file. Output formats are specifically customized to modern resume templates. Also, there are a ton of customizations to the templates possible, to make your own version of resume created easily and super quickly.
-
+AngularJsonResume creates pretty versions of resume from a single JSON input file compatible with [JSON Résumé](http://jsonresume.org/)
+using Angular 4
 
 ## Usage
 
