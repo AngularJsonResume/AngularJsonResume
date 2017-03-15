@@ -1,60 +1,60 @@
-<div class="main-wrapper" *ngFor="let people of peoples">
+    <div class="main-wrapper" *ngFor="let people of peoples">
 
-    <section class="section summary-section">
-        <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
-        <div class="summary">
-            <p>{{people.summary}}</p>
-        </div><!--//summary-->
-    </section><!--//section-->
-
-    <section class="section experiences-section">
-        <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-
-        <div class="item" *ngFor="let work of people.work">
-            <div class="meta">
-                <div class="upper-row">
-                    <h3 class="job-title">{{work.position}}</h3>
-                    <div class="time">{{startDate}} - {{endDate}}</div>
-                </div><!--//upper-row-->
-                <div class="company">{{work.company}}</div>
-            </div><!--//meta-->
-            <div class="details">
-                <p>{{work.summary}}</p>
-            </div><!--//details-->
-        </div><!--//item-->
-
-
-    </section><!--//section-->
-
-
-    <section class="section projects-section">
-        <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-        <div class="intro">
-            <p>You can list your side projects or open source libraries in this section.</p>
-        </div><!--//intro-->
-        <div class="item" *ngFor="let proj of people.projects">
-            <span class="project-title"><a href="#hook">{{proj.name}}</a></span> -
-            <span class="project-tagline">{{proj.summary}}</span>
-
-        </div><!--//item-->
-
-    </section><!--//section-->
-
-
-    <section class="skills-section section">
-        <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-        <div class="skillset" *ngFor="let skill of people.skills">
-            <div class="item">
-                <h3 class="level-title">{{skill.name}}</h3>
-                <div class="level-bar">
-                    <div class="level-bar-inner" data-level="5%">
-                    </div>
-                </div><!--//level-bar-->
-            </div><!--//item-->
-
-
-        </div>
-    </section><!--//skills-section-->
-
-
-</div>
+   
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p>{{people.summary}}</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+                
+                <div class="item" *ngFor="let work of people.work">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{work.position}}</h3>
+                            <div class="time">{{startDate}} - {{endDate}}</div>
+                        </div><!--//upper-row-->
+                        <div class="company">{{work.company}}</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>{{work.summary}}</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+               
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="intro">
+                    <p>You can list your side projects or open source libraries in this section.</p>
+                </div><!--//intro-->
+                <div class="item" *ngFor="let proj of people.projects">
+                    <span class="project-title"><a href="#hook">{{proj.name}}</a></span> - 
+                    <span class="project-tagline">{{proj.summary}}</span>
+                    
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset" *ngFor="let skill of people.skills">        
+                    <div class="item">
+                        <h3 class="level-title">{{skill.name}}</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="5%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    
+                    
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->

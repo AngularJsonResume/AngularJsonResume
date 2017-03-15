@@ -6,14 +6,14 @@
  * License: Creative Commons Attribution 3.0 License
  * Website: http://themes.3rdwavemedia.com/
 */
-/* styles.css */
+/* styles-5.css */
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
   background: #f5f5f5;
   font-size: 14px;
-  padding: 20px;
+  padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,17 +25,8 @@ h5,
 h6 {
   font-weight: 700;
 }
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-
 a {
-  color: #2196F3;
-  text-decoration: none;
+  color: #f47c03;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -43,7 +34,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #1a454f;
+  color: #a85502;
 }
 a:focus {
   text-decoration: none;
@@ -52,32 +43,25 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  
-  width: 960px;
+  background: #FDA246;
+  max-width: 960px;
   margin: 0 auto;
   position: relative;
-  
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
 .sidebar-wrapper {
-  background: #2196F3;
+  background: #FDA246;
   position: absolute;
-  left: 0;
-  width: 300px;
+  right: 0;
+  width: 240px;
   height: 100%;
   min-height: 800px;
   color: #fff;
-
- 
-
-
 }
 .sidebar-wrapper a {
   color: #fff;
-  
 }
 .sidebar-wrapper .profile-wrapper {
   padding: 30px;
@@ -101,26 +85,13 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-
-.contact-list {
-  vertical-align: middle;
-     list-style: none;
-     padding: 0;
-     padding-left: 0;
-}
-
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
-     list-style: none;
-     padding: 0;
-     padding-left: 0;
 }
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
-   list-style: none;
-   padding-left: 0;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -181,24 +152,16 @@ p {
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
 }
-
-
-
-
-
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-left: 350px;
-
-
-
+  padding-right: 300px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2196F3;
+  color: #f47c03;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -217,7 +180,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2196F3;
+  background: #f47c03;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -279,7 +242,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #7bc2d3;
+  background: #fec892;
 }
 .footer {
   padding: 30px;
@@ -330,101 +293,3 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-
-
-
-
-
-
-/*BUTTON*/
-
-.btn {
-position: relative;
-  display: block;
-  margin: 30px auto;
-  padding: 6px 12px;
-  overflow: hidden;
-  border-width: 0;
-  outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-  background-color: #2ecc71;
-  color: #ecf0f1;
-  transition: background-color .3s;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-.btn:hover, .btn:focus {
-  background-color: #27ae60;
-}
-
-.btn > * {
-  position: relative;
-}
-
-.btn span {
-  display: block;
-  padding: 12px 24px;
-}
-
-.btn:before {
-  content: "";
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  
-  display: block;
-  width: 0;
-  padding-top: 0;
-    
-  border-radius: 100%;
-  
-  background-color: rgba(236, 240, 241, .3);
-  
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.btn:active:before {
-  width: 120%;
-  padding-top: 120%;
-  
-  transition: width .2s ease-out, padding-top .2s ease-out;
-}
-
-/* Styles, not important */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
